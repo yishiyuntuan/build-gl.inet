@@ -4,26 +4,12 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
-  - name: helloworld
+  - name: luci-app-passwall
     uri: https://github.com/xiaorouji/openwrt-passwall.git
     branch: packages
 packages:
   - luci-app-passwall
   - luci-app-ssr-plus
-  - luci-app-ddns
-  - ddns-scripts
-  - ddns-scripts-services
-  - ddns-scripts_aliyun
-  - luci-app-uhttpd
-  - dnsmasq-full
-  - luci-app-commands
-  - luci-app-mwan3
-  - luci-app-wireguard
-  - wireguard
-  - luci-app-eqos
-  - wireguard-tools
-
-
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
